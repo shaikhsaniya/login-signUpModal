@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modal Login and SignUp Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <div id="signUp-modal" style="display: flex">
+      <div class="modal">
+        <div class="top-form">
+          <div class="close-modal">✖</div>
+        </div>
+        <div class="signUp-form">
+          <h2>SignUp</h2>
+          <form action="#">
+            <input class="form-control" type="text" placeholder="First name" />
+            <input class="form-control" type="text" placeholder="Last name" />
+            <input class="form-control" type="text" placeholder="Email" />
+            <input
+              class="form-control"
+              type="password"
+              placeholder="Password"
+            />
+            <button type="button" class="submit-btn">SignUp</button>
+            <h4>
+              <a href="http://127.0.0.1:5500/login&signupModal/login.html"
+                >Already a member?
+              </a>
+            </h4>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="http://code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+    <script src="login&signUp.js"></script>
+  </body>
+</html>
